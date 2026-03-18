@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — PageTek LLC</title>
+  <meta name="description" content="Get in touch with PageTek LLC for IT consulting, cybersecurity, and technical support in the Atlanta area.">
+  <link rel="icon" type="image/png" href="logo-mark.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="container">
+      <a href="index.html" class="nav-logo">
+        <img src="PageTekLogo_blacksq_whitetext.png" alt="PageTek">
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="container">
+      <div class="stripe-motif" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </div>
+      <p class="section-label reveal">Contact</p>
+      <h1 class="ink-stamp">Let's talk.</h1>
+      <p class="reveal">Whether you need a full technology assessment, a second opinion on your infrastructure, or just want to see if we're a good fit — reach out. No sales pitch, just a conversation.</p>
+    </div>
+  </header>
+
+  <hr class="rule">
+
+  <!-- Contact Content -->
+  <section>
+    <div class="container">
+      <div class="contact-grid">
+
+        <div class="contact-info reveal">
+          <h3>Get in touch directly.</h3>
+
+          <div class="contact-detail">
+            <p class="contact-detail-label">Email</p>
+            <a href="mailto:hello@pagetek.dev">hello@pagetek.dev</a>
+          </div>
+
+          <div class="contact-detail">
+            <p class="contact-detail-label">Location</p>
+            <p>Atlanta, Georgia</p>
+          </div>
+
+          <div class="contact-detail">
+            <p class="contact-detail-label">LinkedIn</p>
+            <a href="https://www.linkedin.com/company/pagetek-llc" target="_blank" rel="noopener">linkedin.com/company/pagetek-llc</a>
+          </div>
+
+          <div class="contact-detail">
+            <p class="contact-detail-label">Availability</p>
+            <p>On-site in greater Atlanta.<br>Remote support available nationwide.</p>
+          </div>
+        </div>
+
+        <div class="reveal">
+          <!-- TODO: Replace YOUR_FORM_ID with your Formspree form ID (e.g. xyzabcde) -->
+          <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="company">Company</label>
+              <input type="text" id="company" name="company">
+            </div>
+            <div class="form-group">
+              <label for="message">How can we help?</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-accent">Send message</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 PageTek LLC. Atlanta, Georgia.</p>
+      <ul class="footer-links">
+        <li><a href="#" class="back-to-top" aria-label="Back to top">&uarr; Top</a></li>
+        <li><a href="https://www.linkedin.com/company/pagetek-llc" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="mailto:hello@pagetek.dev">hello@pagetek.dev</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="animations.js"></script>
+
+</body>
+</html>
