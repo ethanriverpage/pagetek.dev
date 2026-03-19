@@ -156,6 +156,7 @@ a {
   width: 100%;
   z-index: 1000;
   padding: 1rem 0;
+  padding-top: max(1rem, env(safe-area-inset-top));
   transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
 }
 
